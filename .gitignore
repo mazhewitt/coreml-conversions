@@ -1,0 +1,192 @@
+# Generated CoreML models (these go to HuggingFace, not this repo)
+*.mlpackage/
+*.mlmodel
+*.mlmodelc/
+coreml_models*/
+models/
+output_models/
+
+# Downloaded/cached models
+flan-t5-base/
+downloads/
+cache/
+model_cache/
+huggingface_cache/
+.cache/
+test_final_download/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+conda_env/
+
+# PyTorch model files (large files we don't want in git)
+*.bin
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.msgpack
+*.h5
+*.tflite
+*.onnx
+*.pb
+
+# Tokenizer files (large)
+tokenizer.json
+*.model
+*.vocab
+
+# HuggingFace repo (we work on this separately)
+flan-t5-base-coreml-repo/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+.ropeproject
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+*.lnk
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.exe
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Logs and debug files
+*.log
+logs/
+debug.txt
+error.log
+output.txt
+
+# Testing and temporary files
+test_output/
+temp/
+tmp/
+scratch/
+playground/
+experiments/
+
+# Environment and config files with secrets
+.env.*
+secrets.txt
+api_keys.txt
+config_local.json
+settings_local.json
+
+# PyTorch/ML framework cache
+.torch/
+.transformers/
+.datasets/
+.wandb/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Documentation build
+docs/_build/
+site/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*.save
+
+# Large data files
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Archive files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# Git LFS pointer files (we want actual files, not pointers)
+*.lfs
